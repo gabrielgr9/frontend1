@@ -1,0 +1,23 @@
+.container{
+    width: 100;
+    border-style: outset;
+    height: 800px;
+    font-family: 'Times New Roman';
+    text-align: center;
+    text-shadow:rgb(0, 0, 0);
+    font-size: xx-large;
+}
+.historia{
+    width: 100;
+    height: 800px;
+    font-family: Helvetica;
+    font-size: xx-large;
+    text-align: left;
+}
+.textoH{
+    display: flex;
+    align-items: center;
+}
+img{
+    width: 400px;
+}

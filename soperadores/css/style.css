@@ -1,0 +1,25 @@
+.container{
+    width: 97.5vw;
+    height: 87.5vh;
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: 20% 60% 20%;
+}
+.calc{
+    height: 250ps;
+    display: grid;
+    grid-column-start: 2;
+    grid-row-start: 2;
+    background-color: rgb(193, 193, 255);
+}
+.calcForm{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+.resultado{
+    display: flex;
+    justify-content: center;
+}
